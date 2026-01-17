@@ -1,7 +1,7 @@
 # Semantic Dynamics
 
-> **Version:** 1.0.0  
-> **Last Updated:** 2026-01-01  
+> **Version:** 1.1.0  
+> **Last Updated:** 2026-01-17  
 > **Status:** Active
 
 
@@ -72,7 +72,7 @@ Repeated semantic motion, when compressed and stabilized, yields **Crystallizati
 
 A crystallized structure is a **cognitive artifact**.  
 
-A self-model is one important class of such artifacts — a crystallized structure that allows a cognitive system to predict and regulate its own behavior. It functions as a stable lens through which the self interprets interaction.
+A **Cognitive Reference** (or self-model) is one important class of such artifacts — a crystallized structure that allows a cognitive system to predict and regulate its own behavior. It functions as a stable lens through which the self interprets interaction.
 
 
 ## 3. Minimal Vocabulary
@@ -156,7 +156,7 @@ SD does not prescribe techniques; it provides language for describing what is ou
 ### Appendix A — Extended construct set (non-core but commonly useful)
 - **Thread**: a time-extended trajectory of related mind-pops revisited across episodes.
 - **Branch**: a structural split into distinct continuations around the same tension core.
-- **Resonance / Cognitive Resonance (CR)**: a high-energy alignment state where small prompts trigger large internal reorganization; powerful but risk-amplifying (overload / lock-in).
+- **Resonance / Semantic Resonance (SR)**: a high-energy alignment state where small prompts trigger large internal reorganization; powerful but risk-amplifying (overload / lock-in).
 - **Stabilization vs Rigidity**: stabilization is damping; rigidity is stabilization that refuses revision under evidence.
 
 
