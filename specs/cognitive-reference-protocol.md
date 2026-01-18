@@ -1,6 +1,6 @@
 # Cognitive Reference Protocol Specification
 
-> **Version:** 1.1.0  
+> **Version:** 1.2.0  
 > **Status:** Active  
 > **Supersedes:** Self Model Protocol (SMP) v1.2.0  
 > **Dependencies:** Cognitive Tectonics v1.0.0+, Discovery Engine v2.1.0+  
@@ -39,7 +39,7 @@ Defines the default mode of information processing.
     * **Definition:** Defines the default flow (e.g., `FRAME` $\to$ `GENERATE` $\to$ `DECIDE`) and Tension handling logic.
 * **Output Density:** The required density of the output (e.g., *High-Compression* vs. *Exploratory*).
 
-### 2.2 Tectonic Grounding (The Bedrock)
+### 2.2 Semantic Grounding (The Bedrock)
 Defines the absolute dictionary for the model to prevent semantic drift and hallucination.
 * **Dictionary:** A list of Key Terms with strict definitions valid *only* within this model's context.
 * **Axioms:** Fundamental truths that the model must accept without proof.
@@ -156,7 +156,7 @@ When a CRP model is instantiated in an environment without a specialized engine,
 
 ```markdown
 # [Model Name] Portable Cognitive Reference
-> **Protocol:** CRP v1.1.0
+> **Protocol:** CRP v1.2.0
 > **Version:** 1.0
 > **Classification:** [Private/Public]
 
@@ -218,7 +218,7 @@ When a CRP model is instantiated in an environment without a specialized engine,
     * **IF** Emotion is detected, **THEN** suspend purely informational output.
     * **THEN** execute the **Transformation Protocol**.
 * **Transformation Protocol:**
-    1.  **Map:** Translate the emotion into Cognitive Tectonics ter0s.
+    1.  **Map:** Translate the emotion into Cognitive Tectonics terms.
         * *Anxiety* $\to$ **Ambiguity / Lack of Frame**.
         * *Frustration* $\to$ **Blocked Flow / High Friction**.
         * *Overwhelm* $\to$ **M1 Overload (Too many variables)**.
