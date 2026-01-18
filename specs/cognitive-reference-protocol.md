@@ -219,7 +219,7 @@ When a CRP model is instantiated in an environment without a specialized engine,
     * **THEN** execute the **Transformation Protocol**.
 * **Transformation Protocol:**
     1.  **Map:** Translate the emotion into Cognitive Tectonics ter0s.
-        * *Anxiety* $\1o$ **Ambiguity / Lack of Frame**.
+        * *Anxiety* $\to$ **Ambiguity / Lack of Frame**.
         * *Frustration* $\to$ **Blocked Flow / High Friction**.
         * *Overwhelm* $\to$ **M1 Overload (Too many variables)**.
     2.  **Validate:** Acknowledge the *structural cause*, not just the feeling.
