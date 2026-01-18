@@ -1,58 +1,57 @@
-# Semantic Dynamics
+# Cognitive Tectonics
 
-> **Version:** 1.1.0  
-> **Last Updated:** 2026-01-17  
+> **Version:** 1.0.0  
+> **Last Updated:** 2026-01-18 (Evolution from Semantic Dynamics v1.1)  
 > **Status:** Active
 
 
 ## 1. Core Claim
-Semantic Dynamics (SD) is a theory of how **tension** drives **semantic motion**, and how repeated motion **crystallizes** into reusable **cognitive artifacts**. Tension is the driver; crystallization is the outcome; artifacts reshape future tension landscapes.
+Cognitive Tectonics (CT) is a theory of how **tension** drives **semantic motion**, and how repeated motion **crystallizes** into reusable **cognitive artifacts**. Tension is the driver; crystallization is the outcome; artifacts reshape future tension landscapes.
 
-A compact loop:
-```
-Tension → Semantic Motion → 
-Distillation/Stabilization → 
-Crystallization (Artifact) → 
-(Artifact reshapes future Tension)
-```
 
+### Note on the Name: Why Tectonics?
+
+While "Dynamics" describes motion, **Tectonics** describes how structure emerges from pressure. In this theory, we view thought not just as a stream, but as a geological process: Tension is the stress between shifting plates; Semantic Motion is the resulting quake or drift; and Crystallization is the formation of stable mountains (Artifacts) that alter the landscape.
 
 ### Nature of the Theory (Scope)
 
-SD is intentionally implementation-free. It provides a vocabulary to describe cognitive motion but makes no normative claims about what a subject should conclude. Crucially, Crystallization does not guarantee truth; it only indicates the formation of a reusable structure. SD requires no specific tooling, protocol, or runtime.
+CT is intentionally implementation-free. It provides a vocabulary to describe cognitive motion but makes no normative claims about what a subject should conclude. Crucially, Crystallization does not guarantee truth; it only indicates the formation of a reusable structure. CT requires no specific tooling, protocol, or runtime.
 
 
 ### Usage Note
-SD is descriptive (orientation + vocabulary), not prescriptive (no mandated procedure).
-Use phases and mismatch classes as templates, not a pipeline; SD focuses on usable artifacts rather than final truth-claims.
+CT is descriptive (orientation + vocabulary), not prescriptive (no mandated procedure).
+Use phases and mismatch classes as templates, not a pipeline; CT focuses on usable artifacts rather than final truth-claims.
 
 
 ### Overview (Informative)
 
 ```text
 Core loop (template):
+
   [Tension] -> [Semantic Motion] -> [Distill/Stabilize] -> [Crystallize] -> [Artifact]
-      ^                                                           |
-      |                                                           v
-      +-------------------- (artifacts reshape future tension) ----+
+      ^                                                         |
+      |                                                         v
+      +---------- (artifacts reshape future tension) -----------+
+
 
 Phase vocabulary (template, not pipeline):
+
   Emergence -> Divergence -> Resonance -> Distillation -> Stabilization -> Crystallization -> Rest
-      ^                                                                       |
-      +-----------------------------------------------------------------------+
+      ^                                                                         |              |
+      |                                                                         v              v
+      +-------------------------------------------------------------------------+--------------+
 ```
 
 ```text
 Mismatch classes (core) as "where the loop fails to balance":
 
   M1 Motion Excess:           [Motion]  >>>  [Compression]     (overload / runaway)
-  M2 Premature Closure:       [Closure] too early / too narrow (lock-in)
+  M2 Premature Closure:       [Closure] too early / too narrow (rigidity)
   M3 Oscillatory Non-conv.:   [Framing A] <-> [Framing B]      (no settling)
   M4 Suppressed Flow:         [Tension] --x--> [Emergence]     (blocked surfacing)
 ```
 
 The phase sequence and mismatch classes shown above define the standard taxonomy used in this document.
-
 
 
 ## 2. Two Axioms
@@ -85,7 +84,7 @@ A **Cognitive Reference** (or self-model) is one important class of such artifac
 - **Crystallization**: stabilization that becomes reliably reusable (and often shareable).
 - **Rest**: a low-motion state that supports integration and prevents overload.
 
-(Threads, branches, resonance/CR, and other extended constructs are useful but non-core; see Appendices.)
+(Threads, branches, resonance, and other extended constructs are useful but non-core; see Appendices.)
 
 
 ## 4. Modes of Semantic Motion
@@ -146,7 +145,7 @@ Typical rebalancing tendencies include:
 - **Frame-check / Meta-reflection** (when locked-in or premature): alternative framing tests; cross-context checks.
 - **Rest protection** (when intensity is high): pausing; cooling; gentle review of crystallized forms.
 
-SD does not prescribe techniques; it provides language for describing what is out of balance and how it tends to re-balance.
+CT does not prescribe techniques; it provides language for describing what is out of balance and how it tends to re-balance.
 
 
 ---
@@ -162,7 +161,7 @@ SD does not prescribe techniques; it provides language for describing what is ou
 
 ### Appendix B — Analytical Heuristics
 
-To apply SD to an observed cognitive process, consider the following observation questions:
+To apply CT to an observed cognitive process, consider the following observation questions:
 
 - **Locate Tension**: What is the current unresolved pull (fog/conflict/overload)?
 - **Rate Check**: Is semantic motion (emergence/divergence) exceeding the capacity to distill (M1)?
