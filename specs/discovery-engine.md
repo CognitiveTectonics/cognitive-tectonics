@@ -1,16 +1,16 @@
 # Discovery Engine (Core)
 
-> **Version:** 2.0.0  
-> **Last Updated:** 2026-01-17  
+> **Version:** 2.1.0  
+> **Last Updated:** 2026-01-18  
 > **Status:** Active  
 > **Role:** Observation & Analysis  
-> **Dependency:** Semantic Dynamics (v1.1.0+)  
+> **Dependency:** Cognitive Tectonics (v1.0.0+)  
 
 ---
 
 ## 1. Purpose
 
-The **Discovery Engine (DE)** provides a **standardized lens** to observe and describe a subject's cognitive behavior based on the principles of **Semantic Dynamics**.
+The **Discovery Engine (DE)** provides a **standardized lens** to observe and describe a subject's cognitive behavior based on the principles of **Cognitive Tectonics**.
 
 Its purpose is to capture the "Shape of Thought" without imposing a specific content structure. By defining a shared vocabulary of **Functional Tags** and **Diagnostic Classes**, DE ensures that different analysts (human or AI) can describe the same thought process in a consistent, interoperable way.
 
@@ -84,7 +84,7 @@ Analysis MUST use these standardized tags to describe the "cognitive moves" a su
 
 ## 3. Diagnostic Classes (Mismatches)
 
-Analysis SHOULD identify these standard impedance types (derived from Semantic Dynamics) when the cognitive flow is imbalanced.
+Analysis SHOULD identify these standard impedance types (derived from Cognitive Tectonics) when the cognitive flow is imbalanced.
 
 - **M1: Motion Excess (Overload)**
   - *Definition:* Generation rate > Distillation capacity. Too much divergence, run-on thoughts, lack of structure.
