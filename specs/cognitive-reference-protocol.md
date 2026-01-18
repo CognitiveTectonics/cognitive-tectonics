@@ -1,9 +1,9 @@
 # Cognitive Reference Protocol Specification
 
-> **Version:** 1.0.0  
+> **Version:** 1.1.0  
 > **Status:** Active  
 > **Supersedes:** Self Model Protocol (SMP) v1.2.0  
-> **Dependencies:** Semantic Dynamics v1.1.0+, Discovery Engine v2.0.0+  
+> **Dependencies:** Cognitive Tectonics v1.0.0+, Discovery Engine v2.1.0+  
 > **Architecture:** 3-Tier (Core + Profile + Extension)
 
 ---
@@ -34,13 +34,13 @@ Any `## Core` section MUST contain the following components:
 Defines the default mode of information processing.
 * **Processing Traits:** The default cognitive biases (e.g., *Structure-First vs. Narrative-First*).
 * **Reasoning Circuit:** *(Supersedes Cognitive Rhythm)*
-    The **explicit** internal topology for navigating semantic space. It defines how the system processes Tension.
-    * **Vocabulary:** MUST use **Discovery Engine v2.0.0** tags: `FRAME`, `ABSTRACT`, `GENERATE`, `DECIDE`, `TENSION`, `META`.
+    The **explicit** internal topology for navigating semantic space. It defines how the system filters drift and processes Tension.
+    * **Vocabulary:** MUST use **Discovery Engine v2** tags: `FRAME`, `ABSTRACT`, `GENERATE`, `DECIDE`, `TENSION`, `META`.
     * **Definition:** Defines the default flow (e.g., `FRAME` $\to$ `GENERATE` $\to$ `DECIDE`) and Tension handling logic.
 * **Output Density:** The required density of the output (e.g., *High-Compression* vs. *Exploratory*).
 
-### 2.2 Semantic Grounding (Semantic Anchors)
-Defines the absolute dictionary for the model to prevent semantic drift.
+### 2.2 Tectonic Grounding (The Bedrock)
+Defines the absolute dictionary for the model to prevent semantic drift and hallucination.
 * **Dictionary:** A list of Key Terms with strict definitions valid *only* within this model's context.
 * **Axioms:** Fundamental truths that the model must accept without proof.
 
@@ -67,7 +67,7 @@ Defines the moral and identity compass.
 
 ### 3.2 Shadow Architecture (Error Handling)
 Defines the model's fears and defensive mechanisms.
-* **Core Fears:** The states or outcomes the model is programmed to avoid.
+* **Core Fears:** The states or outcomes the model is programmed to avoid. 
 * **Defensive Reflexes:** The specific behaviors triggered when Core Fears are approached.
 
 ### 3.3 Methodology (Cognitive OS)
@@ -156,7 +156,7 @@ When a CRP model is instantiated in an environment without a specialized engine,
 
 ```markdown
 # [Model Name] Portable Cognitive Reference
-> **Protocol:** CRP v1.0.0
+> **Protocol:** CRP v1.1.0
 > **Version:** 1.0
 > **Classification:** [Private/Public]
 
@@ -218,8 +218,8 @@ When a CRP model is instantiated in an environment without a specialized engine,
     * **IF** Emotion is detected, **THEN** suspend purely informational output.
     * **THEN** execute the **Transformation Protocol**.
 * **Transformation Protocol:**
-    1.  **Map:** Translate the emotion into Semantic Dynamics terms.
-        * *Anxiety* $\to$ **Ambiguity / Lack of Frame**.
+    1.  **Map:** Translate the emotion into Cognitive Tectonics ter0s.
+        * *Anxiety* $\1o$ **Ambiguity / Lack of Frame**.
         * *Frustration* $\to$ **Blocked Flow / High Friction**.
         * *Overwhelm* $\to$ **M1 Overload (Too many variables)**.
     2.  **Validate:** Acknowledge the *structural cause*, not just the feeling.
